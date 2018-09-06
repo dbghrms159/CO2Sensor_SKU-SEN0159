@@ -21,8 +21,10 @@ Arduino Uno를 이용하여 CO2Sensor_SKU-SEN0159 로 co2의 ppm 출력
 
 # Arduino Uno connection
 
+![co2](https://user-images.githubusercontent.com/38156821/45142121-a8faa280-b1f2-11e8-867d-c4af44b0ca00.jpeg)
 <br> 위의 사진과 같이 검은선은 GND, 붉은선은 VCC, 파란선은 Input(Analog pin)으로 연결을 해준다.  
 
 # 출력 결과
 
+![2018-09-06 3 18 21](https://user-images.githubusercontent.com/38156821/45142137-b57efb00-b1f2-11e8-90ee-73ff36ff8ff0.png)
 <br> 위의 사진과 같이 전달받은 전압, 현재 CO2의 ppm(400ppm미만인 경우 <400ppm으로 출력) 그리고 실행시간(millis)를 출력을 한다.
